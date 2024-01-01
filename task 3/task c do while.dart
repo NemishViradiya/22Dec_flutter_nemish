@@ -1,9 +1,11 @@
-void mani ()
+void main ()
 {
-  int i = 100;
-  for ( i = 100; i >=81; i--)
+  int i =100;
+  do
     {
       print(i);
-    }
+      i--;
 
-      }
+    }
+  while (i>=81);
+}
